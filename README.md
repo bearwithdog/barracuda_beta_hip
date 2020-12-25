@@ -5,4 +5,5 @@ compile command
 make all
 ```
 cd linux/release     
-The command of runing in "run_command" file
+
+The command of runing in "run_command" file  
