@@ -1,0 +1,3 @@
+./barracuda index ./sample_data/Saccharomyces_cerevisiae.SGD1.01.50.dna_rm.toplevel.fa && \
+./barracuda aln ./sample_data/Saccharomyces_cerevisiae.SGD1.01.50.dna_rm.toplevel.fa ./sample_data/sample_reads.fastq > ./quicktest.sai && \
+./barracuda samse ./sample_data/Saccharomyces_cerevisiae.SGD1.01.50.dna_rm.toplevel.fa ./quicktest.sai ./sample_data/sample_reads.fastq > ./quicktest.sam
